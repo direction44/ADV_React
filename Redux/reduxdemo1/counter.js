@@ -54,6 +54,11 @@ const decrementByOneAction=()=>{
 
    const store=createStore(counterReducer)
    store.subscribe(()=>{
-       console.log("State Accessed...")
+        const state=store.getState()
+       console.log("State Accessed...",state)
     })
     store.dispatch(incrementByOneAction())
+    store.dispatch(decrementByOneAction())
+    store.dispatch(incrementByOneAction())
+    store.dispatch(incrementByValueAction(3))
+    store.dispatch(resetAction())
