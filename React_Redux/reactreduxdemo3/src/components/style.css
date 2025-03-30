@@ -1,0 +1,83 @@
+/* Overall App Styling */
+body {
+    background-color: #ffe5e5; /* Lightest pink/peach */
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Notes Container */
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: #ffebeb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Heading */
+h2, h4 {
+    font-weight: bold;
+}
+
+/* Input Fields */
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ffb6b6;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Add Button */
+button.add {
+    background-color: #9b59b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add:hover {
+    background-color: #8e44ad;
+}
+
+/* Notes List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Single Note */
+.note {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete Button */
+button.delete {
+    background-color: #e57373; /* Darker pink */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
